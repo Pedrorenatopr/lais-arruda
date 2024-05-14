@@ -12,8 +12,88 @@
 
 body {
     background-color: black;
+    color: white;
 }
 
-img {
-    width: 100%;
+
+.section-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    gap: 100px;
+}
+
+.texto-principal {
+    width: 600px;
+}
+
+.texto-principal h1 {
+    font-size: 57px;
+    padding: 30px 0 30px 0;
+}
+
+.texto-principal span {
+    color: #D02A19;
+}
+
+.texto-principal p{
+    font-size: 35px;
+    line-height: 58px;
+    margin-bottom: 57px;
+}
+
+.texto-principal a {
+    font-size: 19px;
+    padding: 21px 82px 21px 82px;
+    border-radius: 10px;
+    color: black;
+    background: var(--DOURADO-1, linear-gradient(180deg, #B7854D 3.17%, #F5D98F 18.38%, #FDF6B7 33.59%, #F5D88E 55.9%, #FCF5B7 68.07%, #D4B067 79.22%, #BD9149 89.36%, #B7854D 104.57%));
+}
+
+
+.img-principal {
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .section-principal {
+        display: grid;
+        padding-top: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    
+    .texto-principal {
+        width: 100%;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .texto-principal h1 {
+        font-size: 37px;
+        padding: 30px 0 30px 0;
+    }
+    
+    
+    .texto-principal p{
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 57px;
+    }
+    
+    .texto-principal a {
+        font-size: 19px;
+        padding: 1em;
+    }
+    
+    
+    .img-principal {
+        width: 100%;
+    }
+    
+    
 }
