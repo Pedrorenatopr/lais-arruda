@@ -55,6 +55,28 @@ body {
 .img-principal {
 }
 
+.section-dois {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 100px;
+    padding: 100px 230px;
+    background: var(--DOURADO-1, linear-gradient(180deg, #B7854D 3.17%, #F5D98F 18.38%, #FDF6B7 33.59%, #F5D88E 55.9%, #FCF5B7 68.07%, #D4B067 79.22%, #BD9149 89.36%, #B7854D 104.57%));
+
+}
+
+.section-dois h5 {
+    font-size: 40px;
+    padding-bottom: 22px;
+}
+
+.section-dois p {
+    width: 1000px;
+    line-height: 34px;
+}
+
 
 @media screen and (max-width: 1000px) {
 
@@ -94,6 +116,28 @@ body {
     .img-principal {
         width: 100%;
     }
+
+    .section-dois {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: black;
+        margin-top: 0;
+        padding: 1em;
+        background: var(--DOURADO-1, linear-gradient(180deg, #B7854D 3.17%, #F5D98F 18.38%, #FDF6B7 33.59%, #F5D88E 55.9%, #FCF5B7 68.07%, #D4B067 79.22%, #BD9149 89.36%, #B7854D 104.57%));
+    
+    }
+    
+    .section-dois h5 {
+        font-size: 35px;
+    }
+    
+    .section-dois p {
+        width: 100%;
+        line-height: 28px;
+    }
+    
     
     
 }
