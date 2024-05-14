@@ -129,6 +129,59 @@ body {
     padding-right: 18px;
 }
 
+section.mundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 200px;
+  }
+
+  section.mundo .imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+  }
+  section.mundo .imagem img.aviao {
+    width: 100%;
+    z-index: 2;
+    animation: aviaomundo 4s ease-in-out infinite;
+  }
+  @keyframes aviaomundo {
+    0% {
+      filter: brightness(100%);
+      transform: translate(0, 0);
+    }
+    50% {
+      filter: brightness(110%);
+      transform: translate(-50px, 0px);
+    }
+    100% {
+      filter: brightness(100%);
+      transform: translate(0, 0);
+    }
+  }
+  section.mundo .imagem img.mapa {
+    width: 80vw;
+    position: absolute;
+    z-index: 1;
+    animation: mapamundo 55s linear infinite;
+  }
+  @keyframes mapamundo {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
 
 @media screen and (max-width: 1000px) {
 
@@ -224,6 +277,44 @@ body {
         padding-right: 18px;
     }
     
+
+    section.mundo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+      }
+      
+      
+      section.mundo .imagem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+      }
+      section.mundo .imagem img.aviao {
+        max-width: 300px;
+      }
+      @keyframes aviaomundo {
+        0% {
+          filter: brightness(100%);
+          transform: translate(0, 0);
+        }
+        50% {
+          filter: brightness(110%);
+          transform: translate(-20px, 0);
+        }
+        100% {
+          filter: brightness(100%);
+          transform: translate(0, 0);
+        }
+      }
+      section.mundo .imagem img.mapa {
+        width: 100vw;
+        height: 80vw;
+      }
     
     
     
