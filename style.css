@@ -467,6 +467,50 @@ section.mundo {
       padding-bottom: 50px;
     }
 
+    summary {
+      cursor: pointer;
+      color: transparent;
+  }
+  
+  summary p {
+      color: white;
+  }
+  
+  
+  details {
+      background-color: #7F1E10;
+      border-radius: 5px;
+      width: 650px;
+  }
+  
+  details li {
+      color: #b7b7b7;
+  }
+  
+  details ul {
+      background-color: #7F1E10;
+      list-style: none;
+      padding-left: 10px;
+      padding-bottom: 10px;
+  }
+  
+  
+  .card-duvidas {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em;
+      margin-top: 0px;
+      border-radius: 10px;
+  }
+  
+  .duvidas {
+      display: grid;
+      gap: 10px;
+      justify-content: center;
+      padding-top: 100px;
+  }
+
 
 
 @media screen and (max-width: 1000px) {
@@ -805,10 +849,32 @@ section.mundo {
         padding-bottom: 50px;
         padding: 0 5px 0 5px;
       }
+
+      details {
+        width: 100%;
+    } 
+    
+    .duvidas {
+      width: 100%;
+      padding: 0 10px 0 10px;
+    }
+
+    .card-duvidas {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em;
+      margin-top: 0px;
+      border-radius: 10px;
+  }
   
 
       
     
     
     
+}
+
+@media screen and (max-width: 1000px) {
+
 }
