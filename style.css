@@ -249,9 +249,10 @@ section.mundo {
     padding-top: 100px;
   }
   
-  .div-sobre {
+  .div-time-dois {
     display: flex;
     justify-content: center;
+    padding-top: 100px;
   }
   
   .iphone-img  img{
@@ -669,7 +670,7 @@ section.mundo {
         padding-top: 0px;
       }
   
-      .sobre {
+      .time-dois {
         display: grid;
         justify-content: center;
         text-align: center;
@@ -701,7 +702,7 @@ section.mundo {
       }
       
   
-      .div-sobre {
+      .div-time-dois {
         display: grid;
         justify-content: center;
         align-self: center;
@@ -742,6 +743,7 @@ section.mundo {
         color: white;
         background: var(--DEGRADE-VERMELHO, linear-gradient(90deg, #7F1E10 -1.18%, #7F1E10 8.75%, #821E10 16.69%, #A21E11 98.11%));
       }
+  
 
       
     
