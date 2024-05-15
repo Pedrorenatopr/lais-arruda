@@ -438,6 +438,35 @@ section.mundo {
       line-height: 1.5;
     }
 
+    .sobre {
+      background-color: white;
+    }
+
+    .card-sobre {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      padding: 200px 0 200px 0;
+
+    }
+
+    .texto-sobre {
+      width: 584px;
+      color: black;
+    }
+
+    .texto-sobre h2 {
+      width: 400px;
+      padding-bottom: 32px;
+      font-size: 40px;
+    }
+
+    .texto-sobre p {
+      line-height: 30px;
+      padding-bottom: 50px;
+    }
+
 
 
 @media screen and (max-width: 1000px) {
@@ -742,6 +771,39 @@ section.mundo {
         padding: 21px 32px;
         color: white;
         background: var(--DEGRADE-VERMELHO, linear-gradient(90deg, #7F1E10 -1.18%, #7F1E10 8.75%, #821E10 16.69%, #A21E11 98.11%));
+      }
+
+      .sobre {
+        padding: 0 10px 0 10px;
+      }
+      
+  
+      .card-sobre {
+        display: grid;
+        gap: 50px;
+        padding: 100px 0 100px 0;
+      }
+
+      .card-sobre img {
+        width: 100%;
+        height: auto;
+      }
+  
+      .texto-sobre {
+        width: 100%;
+        color: black;
+      }
+  
+      .texto-sobre h2 {
+        width: 100%;
+        padding-bottom: 32px;
+        font-size: 32px;
+      }
+  
+      .texto-sobre p {
+        line-height: 30px;
+        padding-bottom: 50px;
+        padding: 0 5px 0 5px;
       }
   
 
