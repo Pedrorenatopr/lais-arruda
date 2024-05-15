@@ -181,6 +181,41 @@ section.mundo {
     }
   }
 
+  .equipe {
+    display: flex;
+    justify-content: center;
+    background: #7F1E10;
+    padding: 150px 0 150px 0;
+    margin-top: 200px;
+  }
+
+  .card-equipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 1240px;
+    max-width: 1240px;
+  }
+
+  .texto-equipe {
+    width: 450px;
+  }
+
+  .texto-equipe h2 {
+    font-size: 40px;
+    width: 300px;
+    padding-bottom: 34px;
+  }
+
+  .texto-equipe p {
+    line-height: 30px;
+  }
+
+  .img-equipe {
+    width: 700px;
+  }
+
 
 
 @media screen and (max-width: 1000px) {
@@ -315,6 +350,8 @@ section.mundo {
         width: 100vw;
         height: 80vw;
       }
+
+      
     
     
     
