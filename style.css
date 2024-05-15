@@ -90,7 +90,7 @@ body {
 .servicos {
     display: grid;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .servicos h2 {
@@ -292,6 +292,7 @@ section.mundo {
   
   .box-depoimentos {
     padding-top: 900px;
+    padding-bottom: 200px;
   }
   
   section.depoimentos {
@@ -806,6 +807,7 @@ section.mundo {
   
       .box-depoimentos {
         padding-top: 0px;
+        padding-bottom: 50px;
       }
   
       .time-dois {
