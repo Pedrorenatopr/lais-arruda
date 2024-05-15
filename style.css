@@ -214,6 +214,8 @@ section.mundo {
 
   .img-equipe {
     width: 700px;
+    display: flex;
+    gap: 5px;
   }
 
 
@@ -349,6 +351,40 @@ section.mundo {
       section.mundo .imagem img.mapa {
         width: 100vw;
         height: 80vw;
+      }
+
+      .equipe {
+        padding: 100px 0 100px 0;
+        margin-top: 80px;
+      }
+    
+      .card-equipe {
+        display: grid;
+        gap: 50px;
+        width: 100%;
+        max-width: 100%;
+      }
+    
+      .texto-equipe {
+        width: 100%;
+        padding: 0 10px 0 10px;
+      }
+    
+      .texto-equipe h2 {
+        width: 100%;
+        padding-bottom: 34px;
+      }
+    
+      .texto-equipe p {
+        line-height: 28px;
+      }
+    
+      .img-equipe {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: flex-start;
+        width: 100%;
+
       }
 
       
