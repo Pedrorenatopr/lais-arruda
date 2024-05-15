@@ -534,6 +534,20 @@ section.mundo {
     font-weight: 700;
   }
 
+  .fomulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: white;
+    padding: 200px 0 200px 0;
+  }
+
+  .box-formulario h2{
+    color: black;
+    font-size: 40px;
+  }
+
 
 
 @media screen and (max-width: 1000px) {
@@ -897,6 +911,18 @@ section.mundo {
     font-size: 35px;
     padding-bottom: 30px;
     padding: 100px 10px 80px 10px;
+  }
+
+  .fomulario {
+    display: grid;
+    gap: 50px;
+    padding: 100px 0 100px 0;
+    margin-top: 100px;
+  }
+
+  .box-formulario h2{
+    color: black;
+    font-size: 35px;
   }
   
 
