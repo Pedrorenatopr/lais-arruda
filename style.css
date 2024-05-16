@@ -987,7 +987,7 @@ section.mundo {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1em;
+      padding: 7px;
       margin-top: 0px;
       border-radius: 10px;
   }
