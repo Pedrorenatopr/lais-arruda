@@ -862,6 +862,13 @@ section.mundo {
       section.depoimentos .slide .itens .item p {
         font-size: var(--f2);
       }
+
+      .div-titulo-depoimentos {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        margin: 2px;
+      }
   
       .box-depoimentos {
         padding-top: 0px;
