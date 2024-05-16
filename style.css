@@ -1212,3 +1212,39 @@ section.mundo {
 
 }
 
+
+@media screen and (max-width: 1600px) {
+
+  .texto-iphone {
+    color: white;
+    max-width: 350px;
+  }
+
+  .titulo-iphone {
+    font-size: 30px;
+    max-width: 350px;
+  }
+
+  .legenda-iphone {
+    max-width: 350px;
+  }
+
+  .iphone-img img {
+    max-width:  600px;
+
+  }
+
+  .box-iphone {
+    background-size: 500px;
+  }
+
+  .card-equipe {
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 900px;
+  }
+
+
+
+}
