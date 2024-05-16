@@ -920,6 +920,7 @@ section.mundo {
       .box-texto-iphone {
         display: flex;
         justify-content: center;
+        
       }
   
       .texto-iphone {
@@ -1178,16 +1179,16 @@ section.mundo {
 
   .texto-iphone {
     color: white;
-    width: 350px;
+    max-width: 350px;
   }
 
   .titulo-iphone {
     font-size: 30px;
-    width: 350px;
+    max-width: 350px;
   }
 
   .legenda-iphone {
-    width: 350px;
+    max-width: 350px;
   }
 
   .iphone-img img {
