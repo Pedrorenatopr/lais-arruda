@@ -982,6 +982,7 @@ section.mundo {
     .duvidas {
       width: 100%;
       padding: 0 10px 0 10px;
+      background-image: none;
     }
 
     .card-duvidas {
