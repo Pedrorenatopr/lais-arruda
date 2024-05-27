@@ -898,7 +898,7 @@ section.mundo {
       }
 
       .iphone-img span {
-        background: var(--DEGRADE-VERMELHO, linear-gradient(90deg, #7F1E10 -1.18%, #7F1E10 8.75%, #821E10 16.69%, #A21E11 98.11%));
+        background:linear-gradient(90deg, #7F1E10 -1.18%, #7F1E10 8.75%, #821E10 16.69%, #A21E11 98.11%);
         width: 200px;
         height: 200px;
         position: absolute;
