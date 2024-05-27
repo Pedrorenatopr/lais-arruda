@@ -242,7 +242,7 @@ section.mundo {
   .equipe {
     display: flex;
     justify-content: center;
-    background: #7F1E10;
+    background: linear-gradient(180deg, #7F1E10 0%, #000 100%);
     padding: 150px 0 150px 0;
     margin-top: 200px;
   }
