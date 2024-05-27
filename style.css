@@ -886,6 +886,7 @@ section.mundo {
         align-items: center;
         justify-content: center;
         gap: 0;
+        z-index: 2;
       }
   
       .iphone-img {
@@ -893,6 +894,17 @@ section.mundo {
         justify-content: center;
         justify-content: center;
         height: auto;
+        z-index: 1;
+      }
+
+      .iphone-img span {
+        background: var(--DEGRADE-VERMELHO, linear-gradient(90deg, #7F1E10 -1.18%, #7F1E10 8.75%, #821E10 16.69%, #A21E11 98.11%));
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        z-index: -1;
+        border-radius: 268.271px;
+        filter: blur(323.2867126464844px);
       }
   
       .box-iphone {
