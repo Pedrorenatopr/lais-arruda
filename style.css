@@ -904,7 +904,7 @@ section.mundo {
         position: absolute;
         z-index: -1;
         border-radius: 268.271px;
-        filter: blur(323.2867126464844px);
+        filter: blur(100px);
       }
   
       .box-iphone {
